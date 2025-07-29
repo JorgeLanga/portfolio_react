@@ -57,9 +57,9 @@ src/
 - [GitHub](https://github.com/JorgeLanga)
 
 ## Preview
-<video src="src/img/preview.mp4" controls width="600">
-  Seu navegador não suporta a tag de vídeo.
-</video>
+![Preview do Projeto](src/img/preview-1.png)
+
+[▶️ Assista ao vídeo de demonstração](https://drive.google.com/file/d/1l6LkUcNkhBnLMr3n1ZL8jg-S1DZkdvFz/view?usp=drive_link)
 
 ## Deploy
 O projeto está disponível online em: (https://jorge-link-deploy.com)
