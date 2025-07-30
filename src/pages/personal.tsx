@@ -32,20 +32,26 @@ export const Personal = () => {
           <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none">
             <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
             <span className="inline-flex h-full w-full items-center justify-center rounded-full bg-slate-950 px-6 py-1 text-sm font-medium text-white backdrop-blur-3xl">
-              CONTACT ME
+             
+              <a href="#contato"> CONTACT ME</a>
             </span>
           </button>
 
-          <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none">
-            <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-            <span className="inline-flex h-full w-full items-center justify-center rounded-full bg-slate-950 px-6 py-1 text-sm font-medium text-white backdrop-blur-3xl">
-              GET RESUME
-            </span>
-          </button>
+<a
+  href="https://www.canva.com/design/DAGnhS50BEs/_OjU6w0spbUnRMr7XTWtFg/edit?utm_content=DAGnhS50BEs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none"
+>
+  <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+  <span className="inline-flex h-full w-full items-center justify-center rounded-full bg-slate-950 px-6 py-1 text-sm font-medium text-white backdrop-blur-3xl">
+    GET RESUME
+  </span>
+</a>
         </div>
       </div>
 
-      {/* Imagem */}
+   
       <div className="w-[250px] lg:w-[350px]">
         <div className="w-60 h-60 mx-auto py-2 px-2 bg-back rounded-full shadow-lg flex items-center justify-center animate-slideFromRight">
           <img

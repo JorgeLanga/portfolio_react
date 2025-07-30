@@ -8,15 +8,31 @@ export const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-black">
       <div className="flex fixed bg-header w-full px-3 md:px-20 py-8">
         <div>
-          <span className="text-white font-bold text-3xl ">JORGE</span>
+        <span className="text-blue-900 font-bold text-3xl">{ `<` } </span> <span className="text-white font-bold text-3xl "> <i>JORGE</i> </span><span className="text-blue-900 font-bold text-3xl">{ `/>` } </span>
         </div>
         <nav className="flex-1">
           <ul className="flex justify-end flex-1 text-white font-bold">
             {/* Links desktop */}
-            <li className="px-4 hidden md:block"><a href="#sobre">Sobre-mim</a></li>
-            <li className="px-4 hidden md:block"><a href="#tecnologias">Tecnologias</a></li>
-            <li className="px-4 hidden md:block"><a href="#projetos">Projectos</a></li>
-            <li className="px-4 hidden md:block"><a href="#contacto">Contacto</a></li>
+            <li className="px-4 hidden md:block">
+              <a href="#sobre" className="relative pb-1 transition-colors hover:text-blue-400 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[3px] after:bg-gradient-to-r after:from-blue-400 after:via-white after:to-blue-400 after:transition-all after:duration-500 hover:after:w-full">
+                Sobre-mim
+              </a>
+            </li>
+            <li className="px-4 hidden md:block">
+              <a href="#tecnologias" className="relative pb-1 transition-colors hover:text-blue-400 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[3px] after:bg-gradient-to-r after:from-blue-400 after:via-white after:to-blue-400 after:transition-all after:duration-500 hover:after:w-full">
+                Tecnologias
+              </a>
+            </li>
+            <li className="px-4 hidden md:block">
+              <a href="#projetos" className="relative pb-1 transition-colors hover:text-blue-400 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[3px] after:bg-gradient-to-r after:from-blue-400 after:via-white after:to-blue-400 after:transition-all after:duration-500 hover:after:w-full">
+                Projectos
+              </a>
+            </li>
+            <li className="px-4 hidden md:block">
+              <a href="#contacto" className="relative pb-1 transition-colors hover:text-blue-400 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[3px] after:bg-gradient-to-r after:from-blue-400 after:via-white after:to-blue-400 after:transition-all after:duration-500 hover:after:w-full">
+                Contacto
+              </a>
+            </li>
             
 
             <li className="md:hidden flex items-center px-4">
@@ -49,7 +65,7 @@ export const Header = () => {
             <li><a href="#sobre" onClick={() => setOpen(false)} className="hover:text-blue-400 transition-colors">Sobre-mim</a></li>
             <li><a href="#tecnologias" onClick={() => setOpen(false)} className="hover:text-blue-400 transition-colors">Tecnologias</a></li>
             <li><a href="#projetos" onClick={() => setOpen(false)} className="hover:text-blue-400 transition-colors">Projectos</a></li>
-            <li><a href="#contato" onClick={() => setOpen(false)} className="hover:text-blue-400 transition-colors">Contacto</a></li>
+            <li><a href="#contacto" onClick={() => setOpen(false)} className="hover:text-blue-400 transition-colors">Contacto</a></li>
           </ul>
         </nav>
       )}
