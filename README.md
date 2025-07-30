@@ -63,13 +63,8 @@ src/
 ## Deploy
 O projeto está disponível online em: [https://portfolio-react-phi-kohl.vercel.app/]
 ## Créditos
-- Ícones e imagens das tecnologias usadas:
-  - ![React](src/assets/techstack/react.png) React
-  - ![TypeScript](src/assets/techstack/js.png) TypeScript
-  - ![Tailwind](src/assets/techstack/tailwind.png) Tailwind CSS
-  - ![GSAP](src/assets/techstack/gsap.png) GSAP
-  - ![Vite](src/assets/techstack/vite.png) Vite
-- Tecnologias: React, Vite, Tailwind CSS, Magic UI, 
+
+- Tecnologias: Vite, Tailwind CSS, React, Magic UI, aceternity UI
 
 ## Licença
 Este projeto está sob licença MIT.
