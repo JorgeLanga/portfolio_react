@@ -6,10 +6,8 @@ import profile from "../assets/profile.jpg";
 // Tech stack images
 import html from "../assets/techstack/html.png";
 import css from "../assets/techstack/css.png";
-import sass from "../assets/techstack/sass.png";
 import js from "../assets/techstack/js.png";
 import react from "../assets/techstack/react.png";
-import redux from "../assets/techstack/redux.png";
 import tailwind from "../assets/techstack/tailwind.png";
 import bootstrap from "../assets/techstack/bootstrap.png";
 import vscode from "../assets/techstack/vscode.png";
@@ -18,6 +16,16 @@ import git from "../assets/techstack/git.png";
 import npm from "../assets/techstack/npm.png";
 import postman from "../assets/techstack/postman.png";
 import figma from "../assets/techstack/figma.png";
+import node from "../assets/techstack/node.png"
+import mysql from "../assets/techstack/mysql.png"
+import acenternity from "../assets/techstack/aceternity-ui.png"
+import vite from "../assets/techstack/vite.jpg"
+import shadcn from "../assets/techstack/shadcnui.png"
+import magicUi from "../assets/techstack/magicUi.png"
+import heroUi from "../assets/techstack/heroUi.png"
+import mongoDb from "../assets/techstack/mongoDb.png"
+import typescript from "../assets/techstack/typescript.png"
+import express from "../assets/techstack/express.png"
 // Porject Images
 import projectImage1 from "../assets/projects/project1.png";
 import projectImage2 from "../assets/projects/project2.png";
@@ -86,20 +94,29 @@ export const eduDetails = [
 ];
 
 export const techStackDetails = {
+  vite:vite,
   html: html,
-  css: css,
-  js: js,
-  react: react,
-  redux: redux,
-  sass: sass,
+  css: css, 
   tailwind: tailwind,
+  js: js,
+  typscript:typescript,
+  react: react,
+  node:node,
+  mongoDb:mongoDb,
+  mysql:mysql,
+  express:express,
   bootstrap: bootstrap,
+  shadcn:shadcn,
+  heroUi:heroUi,
+  magicUi:magicUi,
+  acenternity:acenternity,
   vscode: vscode,
   postman: postman,
   npm: npm,
   git: git,
   github: github,
   figma: figma,
+
 };
 
 // Enter your Project Details here
@@ -119,8 +136,8 @@ export const projectDetails = [
     image: projectImage2,
     description: `Plataforma digital que conecta farmácias moçambicanas, permitindo a venda e compra de medicamentos online de forma simples e segura. O cliente pode pesquisar produtos, comparar preços, fazer encomendas e receber em casa ou levantar na loja. A solução promove o acesso fácil a medicamentos, incentiva o comércio local e moderniza o setor farmacêutico. Tudo num só lugar, com conveniência e confiança.`,
     techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    previewLink: "https://www.figma.com/design/gJNzmv4W7lYaNkcmTlyy3V/Components-design?node-id=10-53&p=f&t=3MUbBU4Cl2CzZPo3-0",
+    githubLink: "https://github.com/JorgeLanga/",
   },
   {
     title: "Pronto a comer",
@@ -134,7 +151,7 @@ Ideal para quem procura comer bem sem perder tempo no dia a dia.
 
 `,
     techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
+    previewLink: "https://www.figma.com/design/AgvFFazTO7aNjMaMZnkWWr/Untitled?node-id=0-1&p=f&t=iPZkaI7XvG3X9iyO-0",
     githubLink: "https://github.com",
   },
   {
@@ -146,7 +163,7 @@ A ferramenta também oferece busca por utilizadores e uma interface moderna e re
 .`,
     techstack: "Tailwind, TypeScript,React",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/JorgeLanga/Spotidados",
   },
   {
     title: "Zap Recargas",
@@ -158,8 +175,8 @@ O protótipo demonstra o fluxo básico de recarga e simula a experiência real d
 Criado com ferramentas de prototipagem para apresentar a ideia de forma clara e funcional.
 Ideal para testes iniciais e validação de conceito em projetos de serviços digitais.`,
     techstack: "FIGMA",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    previewLink: "https://www.figma.com/design/eRYzIUYh5wC5Q6ietpfbQw/Untitled?node-id=0-1&p=f&t=oIsTE3vScgJVmncN-0",
+    githubLink: "https://github.com/JorgeLanga/",
   },
   {
     title: "E-commerce ",
@@ -172,7 +189,7 @@ Ideal para testes iniciais e validação de conceito em projetos de serviços di
     `,
     techstack: "Tailwind, TypeScript,React js,Node js,Express js e MongoDB",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/Jay-Ubisse/b4f-2-final-project",
   },
 ];
 
