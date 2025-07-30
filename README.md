@@ -59,14 +59,17 @@ src/
 ## Preview
 ![Preview do Projeto](src/img/preview-1.png)
 
-[▶️ Assista ao vídeo de demonstração](https://drive.google.com/file/d/1l6LkUcNkhBnLMr3n1ZL8jg-S1DZkdvFz/view?usp=drive_link)
 
 ## Deploy
-O projeto está disponível online em: (https://jorge-link-deploy.com)
-
+O projeto está disponível online em: [https://portfolio-react-phi-kohl.vercel.app/]
 ## Créditos
-- Ícones e imagens: [Fontes dos ícones/imagens utilizados]
-- Tecnologias: React, Vite, Tailwind CSS, GSAP
+- Ícones e imagens das tecnologias usadas:
+  - ![React](src/assets/techstack/react.png) React
+  - ![TypeScript](src/assets/techstack/js.png) TypeScript
+  - ![Tailwind](src/assets/techstack/tailwind.png) Tailwind CSS
+  - ![GSAP](src/assets/techstack/gsap.png) GSAP
+  - ![Vite](src/assets/techstack/vite.png) Vite
+- Tecnologias: React, Vite, Tailwind CSS, Magic UI, 
 
 ## Licença
 Este projeto está sob licença MIT.

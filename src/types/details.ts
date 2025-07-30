@@ -1,5 +1,5 @@
 // Logo images
-import logogradient from "../assets/logo.svg";
+import logogradient from "../assets/logo.jpeg";
 import logo from "../assets/logo2.svg";
 // Profile Image
 import profile from "../assets/profile.jpg";
